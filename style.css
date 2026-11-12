@@ -1,0 +1,26 @@
+/* Загальні стилі для таблиці: задаємо ширину та прибираємо проміжки між комірками */
+.table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+/* Суцільна границя та внутрішні відступи для комірок (th та td) */
+.table td, .table th {
+    border: 1px solid #6395ff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Зміна фону для шапки таблиці (thead) */
+table thead {
+    background-color: #dae1f8;
+}
+
+/* Стилі для підвалу таблиці (tfoot): колір фону, білий текст та вирівнювання праворуч */
+.table tfoot {
+    background-color: #5776b1;
+    color: #fff;
+    text-align: right;
+}
